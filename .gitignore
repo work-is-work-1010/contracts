@@ -3,9 +3,11 @@ issue.md
 pr.md
 __pycache__/
 node_modules/
+temp_auto_push.bat
 
 # Fuzz test snapshots (non-deterministic, generated locally)
 **/test_snapshots/test/*_fuzz.*.json
 
 # Local WASM build hash artifacts
-**/test_snapshots/wasm_hash.txt
+**/test_snapshots/wasm_hash.txt.gitignore
+branch_structure.json
